@@ -1,66 +1,64 @@
 # CODSOFT — Level 1 Web Development Projects
 
-This repository contains the Level 1 assignments completed as part of the CODSOFT Web Development Internship. Each project demonstrates fundamental frontend development skills using HTML, CSS, and JavaScript. The work focuses on structure, layout, interactivity, and clean implementation.
+This repository contains the Level 1 assignments completed as part of the CODSOFT Web Development Internship. Each project demonstrates core frontend development skills using HTML, CSS, and JavaScript.
 
 ---
 
 ## 📂 Projects Overview
 
 ### **1. Portfolio Website**
-A minimal and responsive personal portfolio designed to present basic professional details.
-**Includes:**
-- Header with name or logo  
-- About section with an image and short introduction  
+A responsive personal portfolio structured to present:
+- Header with name/logo  
+- About section with image + introduction  
 - Skills overview  
-- Projects highlight section  
-- Contact details  
+- Projects preview  
+- Contact section  
 - Footer  
-
-This project emphasises layout clarity, consistency, and clean design.
 
 ---
 
 ### **2. Landing Page**
-A single-page layout created with a focus on visual structure and user-friendly presentation.
-**Features:**
-- Hero section with primary message  
-- Multiple structured content sections  
-- Proper spacing, alignment, and colour usage  
+A clean single-page layout focused on:
+- Hero section  
+- Structured content blocks  
+- Consistent spacing and alignment  
 - Footer section  
-
-The goal is to practice page structuring and effective placement of UI components.
 
 ---
 
 ### **3. Calculator**
-A basic functional calculator built using JavaScript for logic and DOM manipulation.
-**Capabilities:**
-- Core arithmetic operations  
-- Grid-based button layout  
-- Interactive display with real-time output  
-- Lightweight and responsive UI  
-
-This project demonstrates event handling and simple logical operations.
+A functional calculator built using JavaScript.
+**Includes:**
+- Basic arithmetic operations  
+- Grid-based layout  
+- Real-time output  
+- Interactive and lightweight UI  
 
 ---
 
 ## 🚀 Running the Projects
-All three projects are static and run locally without any additional setup.
+All projects are static.
 
-To view any project:
-1. Open the respective project folder.  
-2. Launch the `index.html` file in your browser.  
+To run any project:
+1. Open its folder  
+2. Launch the `index.html` file  
 
-For a smoother workflow, you can use Live Server:
-
+Or use Live Server:
+```bash
+live-server
 ##📁 Directory Structure
 level-1/
-│── portfolio/
-│── landing-page/
+├── portfolio/
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
+│
+├── landing-page/
+│   ├── index.html
+│   ├── styles.css
+│   └── images/
+│
 └── calculator/
-
-##🛠 Technologies Used
-
-HTML — structure
-CSS — styling and layout
-JavaScript — interactivity
+    ├── index.html
+    ├── styles.css
+    └── script.js
