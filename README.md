@@ -46,7 +46,8 @@ To run any project:
 Or use Live Server:
 ```bash
 live-server
-##📁 Directory Structure
+```
+``` ##📁 Directory Structure
 level-1/
 ├── portfolio/
 │   ├── index.html
@@ -62,3 +63,4 @@ level-1/
     ├── index.html
     ├── styles.css
     └── script.js
+```
