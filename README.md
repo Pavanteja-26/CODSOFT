@@ -53,7 +53,7 @@ To view any project:
 
 For a smoother workflow, you can use Live Server:
 
-📁 Directory Structure
+##📁 Directory Structure
 level-1/
 │── portfolio/
 │── landing-page/
