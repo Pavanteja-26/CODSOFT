@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Subscribe to our newsletter for the latest updates and exclusive content">
+    <title>Newsletter Signup - Stay Updated</title>
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>NewsLetter</h1>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#signup">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Stay Ahead with Our Newsletter</h2>
+                <p class="hero-subtitle">Get the latest insights, tips, and exclusive content delivered straight to your inbox every week.</p>
+                <a href="#signup" class="cta-button">Subscribe Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits-section">
+        <div class="container">
+            <h2 class="section-title">Why Subscribe?</h2>
+            <div class="benefits-grid">
+                <!-- Benefit 1 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">📧</div>
+                    <h3>Weekly Updates</h3>
+                    <p>Receive curated content every week with the most important news and trends in your industry.</p>
+                </div>
+                
+                <!-- Benefit 2 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">🎁</div>
+                    <h3>Exclusive Content</h3>
+                    <p>Access premium articles, guides, and resources available only to our subscribers.</p>
+                </div>
+                
+                <!-- Benefit 3 -->
+                <div class="benefit-card">
+                    <div class="benefit-icon">🚀</div>
+                    <h3>Early Access</h3>
+                    <p>Be the first to know about new features, products, and special offers before anyone else.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signup Section -->
+    <section id="signup" class="signup-section">
+        <div class="container">
+            <div class="signup-wrapper">
+                <h2 class="section-title">Join Our Community</h2>
+                <p class="signup-description">Enter your email below and become part of our growing community of subscribers.</p>
+                
+                <!-- Signup Form -->
+                <form id="newsletter-form" class="newsletter-form" novalidate>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            class="form-input" 
+                            placeholder="Enter your email address"
+                            aria-required="true"
+                            aria-describedby="email-error"
+                        >
+                        <span id="email-error" class="error-message" role="alert"></span>
+                    </div>
+                    
+                    <button type="submit" class="submit-button">
+                        <span class="button-text">Subscribe</span>
+                        <span class="button-loader"></span>
+                    </button>
+                </form>
+
+                <!-- Success Message -->
+                <div id="success-message" class="success-message" role="status">
+                    <div class="success-icon">✓</div>
+                    <h3>Successfully Subscribed!</h3>
+                    <p>Thank you for subscribing. Check your inbox for a confirmation email.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 NewsLetter. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="scripts/script.js"></script>
+</body>
+</html>
